@@ -14,7 +14,6 @@ import androidx.appcompat.app.AppCompatActivity
 import java.text.SimpleDateFormat
 import java.util.*
 
-
 class MainActivity : AppCompatActivity() {
     //-------------------------------------//
     val formatter_d = SimpleDateFormat("D.MM.yyyy")

@@ -21,23 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/setbase"
-        android:layout_width="240dp"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="30sp"
-        android:backgroundTint="@color/teal_700"
-        android:text="Загрузить базу"
-        android:textColor="#ffffff"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/deleteall"
-        />
-
-    <Button
-        android:id="@+id/dropbase"
+        android:id="@+id/savebase"
         android:layout_width="240dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -49,6 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/setbase" />
+        app:layout_constraintTop_toBottomOf="@+id/deleteall"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
